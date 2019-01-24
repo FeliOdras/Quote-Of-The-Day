@@ -21,7 +21,7 @@ body {
     text-align: center;
     font-family: "Amatic SC", cursive;
     font-weight: normal;
-    color: #666;
+    color: #333;
     font-size: 1.7rem; }
 
 .main-content {
@@ -36,11 +36,16 @@ body {
     font-family: "Major Mono Display", monospace;
     font-size: 1.1rem;
     line-height: 160%;
-    box-shadow: 0 0 15px #bc9ca1; }
+    box-shadow: 0 0 15px #bc9ca1;
+    color: #333; }
   .main-content a.button {
     display: inline-block;
-    background-color: rgba(233, 195, 201, 0.8);
+    background-color: rgba(233, 195, 201, 0.9);
     margin: 20px;
-    padding: 10px;
+    padding: 5px 10px;
     border-radius: 7px;
-    box-shadow: 0 0 15px #bc9ca1; }
+    color: #6b3d43;
+    text-decoration: none;
+    font-family: "Amatic SC", cursive;
+    font-weight: bold;
+    font-size: 1.3rem; }
