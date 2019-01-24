@@ -42,10 +42,10 @@ body {
   .main-content a.button {
     display: inline-block;
     background-color: rgba(233, 195, 201, 0.8);
-    margin: 20px;
+    margin: 5vh;
     padding: 7px 10px;
     border-radius: 7px;
-    box-shadow: 0 0 15px #666;
+    border: 1px solid #6b3d43;
     color: #6b3d43;
     text-decoration: none;
     font-family: "Amatic SC", cursive;
