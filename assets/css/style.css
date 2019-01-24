@@ -16,7 +16,8 @@ body {
 
 .main-header {
   padding: 15px;
-  background-color: rgba(255, 255, 255, 0.6); }
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 15px #bc9ca1; }
   .main-header h1 {
     text-align: center;
     font-family: "Amatic SC", cursive;
