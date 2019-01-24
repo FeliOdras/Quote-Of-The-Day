@@ -13,7 +13,14 @@ function getQuote() {
         "There is little success where there is little laughter.",
         "We cannot solve our problems with the same thinking we used when we created them.",
         "Talent is just great patience.",
-        "It is hard to understand the universe if you study just one planet."
+        "It is hard to understand the universe if you study just one planet.",
+        "Little things make big days.",
+        "Life isn't about waiting for the storm to pass. It's about dancing in the rain.",
+        "Follow your dreams. They know the way.",
+        "Believe in yourself. Anything is possible.",
+        "You were born to be real, not to be perfect.",
+        "Every day is a new start."
+
     ];
 
     let todaysQuoteID = (theArray) => Math.floor(Math.random() * theArray.length);
