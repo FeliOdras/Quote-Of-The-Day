@@ -65,6 +65,14 @@ body {
   bottom: 0;
   width: 100%;
   padding: 5px;
-  font-size: .9rem;
+  font-size: .8rem;
   font-family: "Major Mono Display", monospace;
   text-transform: lowercase; }
+  .main-footer .hotpink {
+    background-color: hotpink;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+    font-family: 'Pacifico', cursive;
+    font-size: 1rem;
+    float: right; }
