@@ -16,6 +16,7 @@ function getQuote() {
         "It is hard to understand the universe if you study just one planet."
     ];
 
-
+    todaysQuote = (theArray) => Math.floor(Math.random() * theArray.length);
+    console.log(todaysQuote(quotes));
 
 }
