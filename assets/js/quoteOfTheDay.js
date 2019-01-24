@@ -18,6 +18,7 @@ function getQuote() {
 
     let todaysQuoteID = (theArray) => Math.floor(Math.random() * theArray.length);
     let todaysQuote = todaysQuoteID(quotes);
-    return (quotes[todaysQuote]);
+    let todaysQuoteOutput = (quotes[todaysQuote])
+    return todaysQuoteOutput;
 }
 document.getElementById('quoteOfTheDay').innerHTML = getQuote();
