@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Major+Mono+Display");
 * {
   margin: 0;
   padding: 0;
@@ -12,3 +13,9 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw; }
+
+.main-header {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.7); }
+  .main-header h1 {
+    text-align: center; }
