@@ -22,12 +22,20 @@
             margin: 5vh;
             padding: 7px 10px;
             border-radius: 7px;
-            border: 1px solid #6b3d43;
+            border: 1px solid #976168;
             color: #6b3d43;
             text-decoration: none;
             font-family: $headline-font;
             font-weight: bold;
             font-size: 1.3rem;
+            transition: all .5s;
+
+            &:hover,
+            &:active {
+                font-size: 1.4rem;
+                padding: 10px 12px;
+                box-shadow: 0 0 15px #fff;
+            }
         }
     }
 }
