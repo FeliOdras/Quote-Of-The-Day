@@ -56,3 +56,15 @@ body {
       font-size: 1.4rem;
       padding: 10px 12px;
       box-shadow: 0 0 15px #fff; }
+
+.main-footer {
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 15px #bc9ca1;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  font-size: .9rem;
+  font-family: "Major Mono Display", monospace;
+  text-transform: lowercase; }
