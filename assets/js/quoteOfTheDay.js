@@ -21,3 +21,5 @@ function getQuote() {
     return (quotes[todaysQuote]);
 }
 console.log(getQuote());
+
+document.getElementById('quoteOfTheDay').innerHTML = getQuote();
