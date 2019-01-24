@@ -20,6 +20,4 @@ function getQuote() {
     let todaysQuote = todaysQuoteID(quotes);
     return (quotes[todaysQuote]);
 }
-console.log(getQuote());
-
 document.getElementById('quoteOfTheDay').innerHTML = getQuote();
