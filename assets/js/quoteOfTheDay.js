@@ -17,8 +17,6 @@ function getQuote() {
     ];
 
     todaysQuote = (theArray) => Math.floor(Math.random() * theArray.length);
-    console.log(todaysQuote(quotes));
+    return todaysQuote(quotes);
 }
-getQuote()
-
-console.log('Hello World')
+console.log(getQuote());
