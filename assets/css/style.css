@@ -27,4 +27,13 @@ body {
 .main-content {
   padding-top: 15vh; }
   .main-content .quoteOfTheDay {
-    background-color: rgba(255, 255, 255, 0.6); }
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 70vw;
+    max-width: 450px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-family: "Major Mono Display", monospace;
+    font-size: 1.1rem;
+    line-height: 160%;
+    box-shadow: 0 0 15px #bc9ca1; }

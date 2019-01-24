@@ -3,5 +3,14 @@
 
     .quoteOfTheDay {
         background-color: $element-background-color;
+        width: 70vw;
+        max-width: 450px;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+        font-family: $main-font;
+        font-size: 1.1rem;
+        line-height: 160%;
+        box-shadow: 0 0 15px #bc9ca1;
     }
 }
