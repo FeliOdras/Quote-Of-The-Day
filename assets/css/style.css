@@ -5,3 +5,10 @@
 
 :root {
   font-size: 16px; }
+
+body {
+  background-image: url("../images/motivation.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw; }
