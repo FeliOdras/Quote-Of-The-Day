@@ -13,6 +13,7 @@
         line-height: 160%;
         box-shadow: $element-box-shadow;
         color: $main-font-color;
+        transition: all .5s;
     }
 
     a {
